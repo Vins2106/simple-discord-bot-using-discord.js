@@ -1,0 +1,32 @@
+{
+  "name": "discordbot",
+  "version": "0.0.1",
+  "description": "Simple discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "^12.2.0",
+    "quick.db": "^7.1.1",
+    "discord-economy": "^1.2.2",
+    "parse-ms": "^2.0.0",
+    "moment": "^2.27.0",
+    "os": "^0.1.1",
+    "cheerio": "^0.22.0",
+    "request": "^2.88.2",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.2.0",
+    "@discordjs/opus": "^0.3.2"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "simple",
+    "bot"
+  ]
+}
